@@ -21,7 +21,7 @@
             </div>
             <button type="submit" class="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Login</button>
         </form>
-        <p class="mt-4 text-sm text-center">Don't have an account? <a href="{{ route('/auth/register') }}" class="text-blue-500">Register</a></p>
+        <p class="mt-4 text-sm text-center">Don't have an account? <a href="{{ route('register') }}" class="text-blue-500">Register</a></p>
     </div>
 </body>
 </html>
